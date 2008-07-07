@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
   s.author = "Ara T. Howard"
   s.email = "ara.t.howard@gmail.com"
   s.homepage = "http://codeforpeople.com/lib/ruby/bj/"
-  s.rubyforge_project = "codeforpeople"
   s.platform = Gem::Platform::RUBY
   
     
