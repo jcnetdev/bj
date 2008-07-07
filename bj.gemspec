@@ -21,12 +21,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'systemu', '>= 1.2.0'
   s.add_dependency 'orderedhash', '>= 0.0.3'
 
-  s.extensions << "extconf.rb" if File::exists? "extconf.rb"
   s.require_path = "lib" 
   
-  s.executables = Dir::glob("bin/*").map{|exe| File::basename exe}
-  s.files = Dir::glob "**/**"
-  
-  s.test_suite_file = "test/#{ lib }.rb" if File::directory? "test"
-  
+  s.executables = ["bj"]
+  s.files = ["bin", "bin/bj", "bj-1.0.3.gem", "bj.gemspec", "HISTORY", "init.rb", "install.rb", "lib", "lib/bj", "lib/bj/api.rb", "lib/bj/attributes.rb", "lib/bj/bj.rb", "lib/bj/errors.rb", "lib/bj/joblist.rb", "lib/bj/logger.rb", "lib/bj/runner.rb", "lib/bj/stdext.rb", "lib/bj/table.rb", "lib/bj/util.rb", "lib/bj.rb", "rails", "rails/init.rb", "rakefile", "README", "TODO"]
+    
 end
