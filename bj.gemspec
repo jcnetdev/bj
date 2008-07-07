@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "bj"
-  s.version = '1.0.31'
+  s.version = '1.0.32'
   s.date = '2008-07-06'
   
   s.summary = "Background Priority Queue"
