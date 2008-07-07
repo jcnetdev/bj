@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.require_path = "lib" 
   
-  s.executables = ["bj"]
+  s.executables = ["bin/bj"]
   s.files = ["bin/bj", 
              "bj.gemspec", 
              "HISTORY", 
