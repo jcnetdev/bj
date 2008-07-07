@@ -24,6 +24,25 @@ Gem::Specification.new do |s|
   s.require_path = "lib" 
   
   s.executables = ["bj"]
-  s.files = ["bin", "bin/bj", "bj-1.0.3.gem", "bj.gemspec", "HISTORY", "init.rb", "install.rb", "lib", "lib/bj", "lib/bj/api.rb", "lib/bj/attributes.rb", "lib/bj/bj.rb", "lib/bj/errors.rb", "lib/bj/joblist.rb", "lib/bj/logger.rb", "lib/bj/runner.rb", "lib/bj/stdext.rb", "lib/bj/table.rb", "lib/bj/util.rb", "lib/bj.rb", "rails", "rails/init.rb", "rakefile", "README", "TODO"]
+  s.files = ["bin/bj", 
+             "bj.gemspec", 
+             "HISTORY", 
+             "init.rb", 
+             "install.rb", 
+             "lib/bj/api.rb", 
+             "lib/bj/attributes.rb", 
+             "lib/bj/bj.rb", 
+             "lib/bj/errors.rb", 
+             "lib/bj/joblist.rb", 
+             "lib/bj/logger.rb", 
+             "lib/bj/runner.rb", 
+             "lib/bj/stdext.rb", 
+             "lib/bj/table.rb", 
+             "lib/bj/util.rb", 
+             "lib/bj.rb", 
+             "rails/init.rb", 
+             "rakefile", 
+             "README", 
+             "TODO"]
     
 end
