@@ -91,11 +91,10 @@ class Bj
 #
     class Job < Table
       set_table_name "bj_job"
-      set_primary_key "#{ table_name }_id"
 
       migration { 
         define_method :up do
-          create_table table.table_name, :primary_key => table.primary_key, :force => true do |t|
+          create_table table.table_name, :force => true do |t|
             t.column "command"        , :text
 
             t.column "state"          , :text
@@ -166,11 +165,10 @@ class Bj
 
     class JobArchive < Job
       set_table_name "bj_job_archive"
-      set_primary_key "#{ table_name }_id"
 
       migration {
         define_method(:up) do
-          create_table table.table_name, :primary_key => table.primary_key, :force => true do |t|
+          create_table table.table_name, :force => true do |t|
             t.column "command"        , :text
 
             t.column "state"          , :text
@@ -204,11 +202,10 @@ class Bj
   # TODO - initialize with a set of global defaults and fallback to those on perhaps '* * key'
     class Config < Table
       set_table_name "bj_config"
-      set_primary_key "#{ table_name }_id"
 
       migration {
         define_method(:up) do
-          create_table table.table_name, :primary_key => table.primary_key, :force => true do |t|
+          create_table table.table_name, :force => true do |t|
             t.column "hostname"      , :text
             t.column "key"           , :text
             t.column "value"         , :text
