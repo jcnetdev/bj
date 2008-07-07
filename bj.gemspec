@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "bj"
-  s.version = '1.0.37'
-  s.date = '2008-07-06'
+  s.version = '1.0.38'
+  s.date = '2008-07-07'
   
   s.summary = "Background Priority Queue"
   s.description = "Backgroundjob (Bj) is a brain dead simple zero admin background priority queue for Rails.  Bj is robust, platform independent (including windows), and supports internal or external manangement of the background runner process."
@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
 
   # s.require_path = "lib" 
   
-  s.files = ["bin/bj", 
+  s.files = ["bj",
+             "bin/bj", 
              "bj.gemspec", 
              "HISTORY", 
              "init.rb", 
