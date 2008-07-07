@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "bj"
-  s.version = '1.0.35'
+  s.version = '1.0.36'
   s.date = '2008-07-06'
   
   s.summary = "Background Priority Queue"
@@ -43,6 +43,6 @@ Gem::Specification.new do |s|
              "README", 
              "TODO"]
   
-  s.executables = ["bin/bj"]
+  s.executables = ["bj"]
     
 end
