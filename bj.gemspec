@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
 
   # s.require_path = "lib" 
   
-  s.executables = ["bin/bj"]
   s.files = ["bin/bj", 
              "bj.gemspec", 
              "HISTORY", 
@@ -43,5 +42,7 @@ Gem::Specification.new do |s|
              "rakefile", 
              "README", 
              "TODO"]
+  
+  s.executables = ["bin/bj"]
     
 end
