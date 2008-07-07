@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "bj"
-  s.version = '1.0.32'
+  s.version = '1.0.33'
   s.date = '2008-07-06'
   
   s.summary = "Background Priority Queue"
@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'systemu', '>= 1.2.0'
   s.add_dependency 'orderedhash', '>= 0.0.3'
 
-  s.require_path = "lib" 
+  # s.require_path = "lib" 
   
-  s.executables = ["bin/bj"]
+  # s.executables = ["bin/bj"]
   s.files = ["bin/bj", 
              "bj.gemspec", 
              "HISTORY", 
