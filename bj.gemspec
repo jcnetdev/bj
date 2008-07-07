@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "bj"
-  s.version = '1.0.33'
+  s.version = '1.0.34'
   s.date = '2008-07-06'
   
   s.summary = "Background Priority Queue"
@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   
   s.add_dependency 'rails', ['>= 2.1']
 
-  s.add_dependency 'main', '>= 2.6.0'
-  s.add_dependency 'systemu', '>= 1.2.0'
-  s.add_dependency 'orderedhash', '>= 0.0.3'
+  s.add_dependency 'main', ['>= 2.6.0']
+  s.add_dependency 'systemu', ['>= 1.2.0']
+  s.add_dependency 'orderedhash', ['>= 0.0.3']
 
   # s.require_path = "lib" 
   
